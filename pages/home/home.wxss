@@ -1,0 +1,8 @@
+/* pages/home/home.wxss */
+page {
+  background: #ffffff;
+}
+.wrap {
+  background: red;
+  transition: all 0.3s;
+}
