@@ -2,7 +2,19 @@
 page {
   background: #ffffff;
 }
+
 .wrap {
-  background: red;
-  transition: all 0.3s;
+
+}
+
+.lists {
+  height: 100vh;
+  background: #f5f5f5;
+}
+
+.tip {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #000;
 }
