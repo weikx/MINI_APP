@@ -1,2 +1,4 @@
 <!--components/home/home.wxml-->
-<text>这里是首页</text>
+<scroll-view scroll-y enable-back-to-top class="wrap">
+<view wx:for="{{100}}" wx:for-item="i" wx:key="i">这是首页{{i}}</view>
+</scroll-view>
