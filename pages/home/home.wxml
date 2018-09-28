@@ -1,10 +1,6 @@
 <!--pages/home/home.wxml-->
-<view class="wrap"
-  hover-class="" hover-stop-propagation="false">
-  <view class="tip" style="margin-top: {{tipTop}}px">{{tip}}</view>
-  <view bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" style="transform: translateY({{translateY}}px); transition: all {{transition}}s;" class="lists">
-    <view wx:for="{{10}}" wx:for-item="i" wx:key="i" class="item" hover-class="none" hover-stop-propagation="false">
-      {{i}}
-    </view>
-  </view>
+<view class="wrap">
+  <input type="text" />
+  <text class="iconfont icon-hua"></text>
+    <tab-bar></tab-bar>
 </view>

@@ -3,22 +3,6 @@
     "pages/home/home",
     "pages/classify/classify"
   ],
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/home/home",
-        "selectedIconPath": "static/images/home1.png",
-        "iconPath": "static/images/home2.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/classify/classify",
-        "selectedIconPath": "static/images/classify1.png",
-        "iconPath": "static/images/classify2.png",
-        "text": "分类"
-      }
-    ]
-  },
   "window": {
     "backgroundColor": "#000000"
   }
