@@ -1,6 +1,0 @@
-<!--pages/home/home.wxml-->
-<view class="wrap">
-  <input type="text" />
-  <text class="iconfont icon-hua"></text>
-    <tab-bar></tab-bar>
-</view>

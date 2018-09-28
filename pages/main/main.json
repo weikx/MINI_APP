@@ -1,0 +1,10 @@
+{
+  "disableScroll": true,
+  "usingComponents": {
+    "tab-bar": "/components/tabBar/tabBar",
+    "home": "/components/home/home",
+    "classify": "/components/classify/classify",
+    "shopcart": "/components/shopcart/shopcart",
+    "me": "/components/me/me"
+  }
+}

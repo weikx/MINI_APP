@@ -1,7 +1,6 @@
 {
   "pages": [
-    "pages/home/home",
-    "pages/classify/classify"
+    "pages/main/main"
   ],
   "window": {
     "backgroundColor": "#000000"
