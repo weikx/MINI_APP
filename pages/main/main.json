@@ -3,6 +3,7 @@
   "usingComponents": {
     "tab-bar": "/components/tabBar/tabBar",
     "home": "/components/home/home",
+    "release": "/components/release/release",
     "classify": "/components/classify/classify",
     "shopcart": "/components/shopcart/shopcart",
     "me": "/components/me/me"

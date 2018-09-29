@@ -2,7 +2,8 @@
 <view class="wrap">
   <home wx:if="{{tabIndex == 0}}"/>
   <classify wx:if="{{tabIndex == 1}}"/>
-  <shopcart wx:if="{{tabIndex == 2}}"/>
-  <me wx:if="{{tabIndex == 3}}"/>
+  <release wx:if="{{tabIndex == 2}}"/>
+  <shopcart wx:if="{{tabIndex == 3}}"/>
+  <me wx:if="{{tabIndex == 4}}"/>
   <tab-bar bindswitchTab="switchTab"></tab-bar>
 </view>
