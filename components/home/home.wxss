@@ -1,4 +1,62 @@
 /* components/home/home.wxss */
+/* iconfont start */
+@font-face {
+  font-family: 'iconfont';  /* project id 856985 */
+  src: url('//at.alicdn.com/t/font_856985_9eyx74q13ut.eot');
+  src: url('//at.alicdn.com/t/font_856985_9eyx74q13ut.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_856985_9eyx74q13ut.woff') format('woff'),
+  url('//at.alicdn.com/t/font_856985_9eyx74q13ut.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_856985_9eyx74q13ut.svg#iconfont') format('svg');
+}
+
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:35rpx;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-android-fill:before { content: "\e881"; }
+
+.icon-apple-fill:before { content: "\e882"; }
+
+.icon-twitter:before { content: "\e885"; }
+
+.icon-Youtube-fill:before { content: "\e886"; }
+
+.icon-nodejs:before { content: "\e669"; }
+
+/* iconfont end */
+
 .wrap {
   height: calc(100vh - 100rpx);
+}
+
+.search-wrap {
+  width: calc(90vw - 194rpx);
+  height: 80rpx;
+  line-height: 80rpx;
+  box-shadow: 0 0 20rpx 5rpx rgba(0, 0, 0, .1);
+  margin: 0 auto;
+  border-radius: 50rpx;
+  position: fixed;
+  top: 50rpx;
+  left: 50%;
+  margin-left: -45vw;
+}
+
+.search-wrap input {
+  height: 100%;
+  padding: 0 20rpx;
+}
+
+.hot-search {
+  background: pink;
+  line-height: 70rpx;
+}
+
+.hot-search__item {
+  border-top: 1rpx solid #ccc;
 }

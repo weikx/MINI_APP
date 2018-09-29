@@ -1,4 +1,27 @@
 <!--components/home/home.wxml-->
 <scroll-view scroll-y enable-back-to-top class="wrap">
-<view wx:for="{{100}}" wx:for-item="i" wx:key="i">这是首页{{i}}</view>
+  <view class="search-wrap">
+    <input bindfocus="inputFocus" type="text" placeholder="search flower"/>
+    <text class="iconfont icon-ios"/>
+  </view>
+  <view class="hot-search">
+    <view class="hot-search__item">
+      鲜花哦哦
+    </view>
+    <view class="hot-search__item">
+      鲜花哦哦
+    </view>
+    <view class="hot-search__item">
+      鲜花哦哦
+    </view>
+    <view class="hot-search__item">
+      鲜花哦哦
+    </view>
+    <view class="hot-search__item">
+      鲜花哦哦
+    </view>
+    <view class="hot-search__item">
+      鲜花哦哦
+    </view>
+  </view>
 </scroll-view>
