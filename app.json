@@ -3,6 +3,7 @@
     "pages/main/main"
   ],
   "window": {
-    "backgroundColor": "#000000"
+    "backgroundColor": "#000000",
+    "navigationStyle": "custom"
   }
 }
