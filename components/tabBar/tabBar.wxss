@@ -1,38 +1,32 @@
 /* components/tabBar/tabBar.wxss */
 /* iconfont start */
 @font-face {
-  font-family: 'iconfont';
-  /* project id 856985 */
-  src: url('//at.alicdn.com/t/font_856985_okq1705lhoq.eot');
-  src: url('//at.alicdn.com/t/font_856985_okq1705lhoq.eot?#iefix') format('embedded-opentype'),
-    url('//at.alicdn.com/t/font_856985_okq1705lhoq.woff') format('woff'),
-    url('//at.alicdn.com/t/font_856985_okq1705lhoq.ttf') format('truetype'),
-    url('//at.alicdn.com/t/font_856985_okq1705lhoq.svg#iconfont') format('svg');
+  font-family: 'iconfont';  /* project id 856985 */
+  src: url('//at.alicdn.com/t/font_856985_9eyx74q13ut.eot');
+  src: url('//at.alicdn.com/t/font_856985_9eyx74q13ut.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_856985_9eyx74q13ut.woff') format('woff'),
+  url('//at.alicdn.com/t/font_856985_9eyx74q13ut.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_856985_9eyx74q13ut.svg#iconfont') format('svg');
 }
 
+
 .iconfont {
-  font-family: "iconfont" !important;
-  font-size: 16px;
-  font-style: normal;
+  font-family:"iconfont" !important;
+  font-size:35rpx;
+  font-style:normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-android-fill:before {
-  content: "\e881";
-}
+.icon-android-fill:before { content: "\e881"; }
 
-.icon-apple-fill:before {
-  content: "\e882";
-}
+.icon-apple-fill:before { content: "\e882"; }
 
-.icon-twitter:before {
-  content: "\e885";
-}
+.icon-twitter:before { content: "\e885"; }
 
-.icon-Youtube-fill:before {
-  content: "\e886";
-}
+.icon-Youtube-fill:before { content: "\e886"; }
+
+.icon-nodejs:before { content: "\e669"; }
 
 /* iconfont end */
 
@@ -51,7 +45,7 @@
 .tab-item {
   flex: 1;
   text-align: center;
-  font-size: 20rpx;
+  font-size: 18rpx;
 }
 
 .tab-item text {
@@ -72,4 +66,21 @@
 
 .checked-youtube {
   color: #EC3323;
+}
+
+.checked-node {
+  color: #86C865;
+}
+
+.node-wrap {
+}
+
+.icon-nodejs {
+  font-size: 80rpx;
+  margin-top: -70rpx;
+  transition: all 2s;
+}
+
+.node-text {
+  transition: all 2s;
 }

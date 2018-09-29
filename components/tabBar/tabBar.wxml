@@ -1,19 +1,23 @@
 <!--components/tabBar/tabBar.wxml-->
 <view class="wrap">
-<view bindtap="switchTab" data-index="0" class="tab-item {{type == 0 ? 'checked-android' : ''}}">
-  <text class="iconfont icon-android-fill"/>
-    <text>android</text>
+  <view bindtap="switchTab" data-index="0" class="tab-item {{type == 0 ? 'checked-android' : ''}}">
+    <text class="iconfont icon-android-fill"/>
+      <text>android</text>
   </view>
-<view bindtap="switchTab" data-index="1" class="tab-item {{type == 1 ? 'checked-ios' :''}}">
-  <text class="iconfont icon-apple-fill"/>
-    <text>ios</text>
+  <view bindtap="switchTab" data-index="1" class="tab-item {{type == 1 ? 'checked-ios' :''}}">
+    <text class="iconfont icon-apple-fill"/>
+      <text>ios</text>
   </view>
-<view bindtap="switchTab" data-index="2" class="tab-item {{type == 2 ? 'checked-twitter' :''}}">
-  <text class="iconfont icon-twitter"/>
-    <text>twitter</text>
+  <view bindtap="switchTab" data-index="2" class="tab-item {{type == 2 ? 'checked-node' : ''}}">
+      <text class="iconfont icon-nodejs" style="transform: rotate({{nodeRotate}}deg)"/>
+      <text class="node-text">Node.js</text>
   </view>
-<view bindtap="switchTab" data-index="3" class="tab-item {{type == 3 ? 'checked-youtube' :''}}">
-  <text class="iconfont icon-Youtube-fill"/>
-    <text>youtube</text>
+  <view bindtap="switchTab" data-index="3" class="tab-item {{type == 3 ? 'checked-twitter' :''}}">
+    <text class="iconfont icon-twitter"/>
+      <text>twitter</text>
+  </view>
+  <view bindtap="switchTab" data-index="4" class="tab-item {{type == 4 ? 'checked-youtube' :''}}">
+    <text class="iconfont icon-Youtube-fill"/>
+      <text>youtube</text>
   </view>
 </view>
