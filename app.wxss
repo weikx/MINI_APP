@@ -1,3 +1,6 @@
+@import "./static/fonts/TengXiang.wxss";
+
+
 page {
   background: #F6F6F8;
 }
@@ -31,3 +34,8 @@ page {
 .icon-nodejs:before { content: "\e669"; }
 
 /* iconfont end */
+
+
+.them-color {
+  color: #F596AA;
+}
