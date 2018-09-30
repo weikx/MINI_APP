@@ -1,27 +1,23 @@
 <!--components/home/home.wxml-->
 <scroll-view scroll-y enable-back-to-top class="wrap">
-  <view class="search-wrap">
-    <input bindfocus="inputFocus" type="text" placeholder="search flower"/>
-    <text class="iconfont icon-ios"/>
+  <view class="search-wrap {{focus ? 'search-focus' : ''}}">
+    <input bindfocus="inputFocus" bindblur="inputBlur" bindinput="inputTypeing" type="text" placeholder="search flower" placeholder-class="placeholders"/>
+    <text class="iconfont icon-sousuo them-color" style="opacity: {{focus ? 1 : 0}}"/>
   </view>
-  <view class="hot-search">
-    <view class="hot-search__item">
-      鲜花哦哦
+  <view class="hot-search" style="opacity: {{focus ? 1 : 0}}; height: {{focus ? 430 : 0}}rpx">
+    <text class="hot-search__title">hot search</text>
+    <view wx:for="{{searchList}}" wx:key="index" class="hot-search__item">
+      <image class="hot-search__img" src="{{item.img}}"></image>
+      <text class="hot-search__name">{{item.name}}</text>
     </view>
-    <view class="hot-search__item">
-      鲜花哦哦
-    </view>
-    <view class="hot-search__item">
-      鲜花哦哦
-    </view>
-    <view class="hot-search__item">
-      鲜花哦哦
-    </view>
-    <view class="hot-search__item">
-      鲜花哦哦
-    </view>
-    <view class="hot-search__item">
-      鲜花哦哦
+  </view>
+
+  <view class="card-wrap">
+    <view wx:for="{{flowerList}}" wx:key="index" class="card">
+      <image src="{{item.img}}" class="card-img"/>
+      <text class="card-name">
+        {{item.name}}s
+      </text>
     </view>
   </view>
 </scroll-view>
