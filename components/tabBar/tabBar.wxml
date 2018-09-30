@@ -10,7 +10,7 @@
   </view>
   <view bindtap="switchTab" data-index="2" class="tab-item {{type == 2 ? 'checked-node' : ''}}">
       <text class="iconfont icon-nodejs" style="transform: rotate({{nodeRotate}}deg)"/>
-      <text class="node-text">Node.js</text>
+      <!--<text class="node-text">Node.js</text>-->
   </view>
   <view bindtap="switchTab" data-index="3" class="tab-item {{type == 3 ? 'checked-twitter' :''}}">
     <text class="iconfont icon-twitter"/>
