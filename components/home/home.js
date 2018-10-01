@@ -24,7 +24,9 @@ Component({
       {img: "http://imgc1-up.ezrpro.com/img/6/0537f6d1cdce65.jpg", name: "经典永续 - 钟情925银玫瑰色 中型戒指"},
       {img: "http://imgc1-up.ezrpro.com/img/3/060338c1633320.jpg", name: "星座经典 - 天蝎座天蝎守护色"}
     ],
-    searchList: []
+    searchList: [],
+    hotSearchList: [],
+    isShowShadow: false
   },
 
   /**
@@ -62,6 +64,15 @@ Component({
         this.setData({
           searchList: arr || []
         })
+      })
+    },
+
+    onScroll (event) {
+      let scrollTop = event.detail.scrollTop
+      if (scrollTop <=55 || scrollTop >= 65) return
+      console.log(scrollTop)
+      this.setData({
+        isShowShadow: scrollTop >= 60
       })
     }
   }
