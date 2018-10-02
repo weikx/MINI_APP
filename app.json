@@ -1,9 +1,11 @@
 {
   "pages": [
-    "pages/main/main"
+    "pages/main/main",
+    "pages/goodsDetail/goodsDetail"
   ],
   "window": {
-    "backgroundColor": "#000000",
-    "navigationStyle": "custom"
+    "backgroundColor": "#ffffff",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
   }
 }
