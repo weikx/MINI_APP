@@ -1,0 +1,26 @@
+/* components/navBar/navBar.wxss */
+@import "/static/wxss/icon.wxss";
+
+.nav-bar {
+  color: #333333;
+  width: 100%;
+  height: 130rpx;
+  line-height: 150rpx;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  transition: all .5s;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.nav-bar--bg {
+  background: rgba(0, 0, 0, .5);
+  color: #ffffff;
+}
+
+.hide {
+  display: none;
+}
