@@ -1,0 +1,38 @@
+<!--pages/goodsDetail/goodsDetail.wxml-->
+<scroll-view bindscroll="onScroll" scroll-y class="wrap">
+  <nav-bar show-bg="{{navBarBgColor}}"></nav-bar>
+  <view class="goods-img-wrap">
+    <image src="http://imgc1-up.ezrpro.com/img/3/0510e03fcbcdeb.jpg" class="goods-img"></image>
+  </view>
+  <view class="goods-info">
+    <view class="goods-info__list">
+      <view class="goods-info__left">
+        <text class="goods-name">全世爱 - 经典簇拥版嫣红 中型圆形</text>
+      </view>
+      <view class="goods-info__right">
+        <text class="iconfont icon-shoucang"></text>
+      </view>
+    </view>
+    <view class="goods-info__list">
+      <view class="goods-info__left">
+        <text class="goods-desc">牛逼牛逼简介简介牛逼牛逼简介简介牛逼牛逼简介简介牛逼牛逼简介简介牛逼牛逼简介简介</text>
+      </view>
+      <view class="goods-info__right">
+
+      </view>
+    </view>
+    <view class="goods-info__list goods-info__list--last">
+      <view class="goods-info__left">
+        <view class="goods-style">
+        <image src="http://imgc1-up.ezrpro.com/img/3/0510e03fcbcdeb.jpg?size=100x100s"></image>
+        </view>
+      </view>
+      <view class="goods-info__right" style="text-align: left">
+        $ 999
+      </view>
+    </view>
+  </view>
+  <view class="goods-main">
+
+  </view>
+</scroll-view>
