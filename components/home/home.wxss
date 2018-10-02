@@ -1,135 +1,11 @@
 /* components/home/home.wxss */
-/* iconfont start */
-@font-face {
-  font-family: 'iconfont';  /* project id 856985 */
-  src: url('//at.alicdn.com/t/font_856985_1bxvudqeb1q.eot');
-  src: url('//at.alicdn.com/t/font_856985_1bxvudqeb1q.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_856985_1bxvudqeb1q.woff') format('woff'),
-  url('//at.alicdn.com/t/font_856985_1bxvudqeb1q.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_856985_1bxvudqeb1q.svg#iconfont') format('svg');
-}
-
-.iconfont {
-  font-family:"iconfont" !important;
-  font-size:16px;
-  font-style:normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-sousuo:before { content: "\e625"; }
-
-.icon-android-fill:before { content: "\e881"; }
-
-.icon-apple-fill:before { content: "\e882"; }
-
-.icon-twitter:before { content: "\e885"; }
-
-.icon-Youtube-fill:before { content: "\e886"; }
-
-.icon-nodejs:before { content: "\e669"; }
-
-/* iconfont end */
-
 .them-color {
-  color: #F596AA;
+  color: #FE737A;
 }
 
 
 .wrap {
   height: calc(100vh - 100rpx);
-}
-
-.search-bg {
-  position: fixed;
-  width: 100vw;
-  background: #fff;
-  height: 150rpx;
-  top: 0;
-  z-index: 998;
-  transition: all .3s;
-}
-
-.search-bg--shadow {
-  box-shadow: 0 2px 10px rgba(51, 51, 51, .1);
-}
-
-.search-wrap {
-  display: flex;
-  width: calc(90vw - 194rpx);
-  height: 80rpx;
-  line-height: 80rpx;
-  box-shadow: 0 0 20rpx 5rpx #f1f1f1;
-  border-radius: 50rpx;
-  position: fixed;
-  top: 50rpx;
-  left: 50%;
-  margin-left: -45vw;
-  transition: all .3s;
-  font-size: 25rpx;
-  z-index: 999;
-  background: #fff;
-}
-
-.search-focus {
-  width: calc(98vw - 194rpx);
-  margin-left: -49vw;
-  border-radius: 20rpx;
-  top: 24rpx;
-}
-
-.search-wrap input {
-  height: 100%;
-  padding: 0 20rpx;
-  flex: 1;
-}
-
-.placeholders {
-  font-size: 30rpx;
-  color: #cccccc;
-}
-
-.icon-sousuo {
-  flex: 0 0 20rpx;
-  text-align: center;
-  font-size: 40rpx;
-  padding-right: 20rpx;
-  transition: all .3s;
-}
-
-.hot-search {
-  height: 0rpx;
-  overflow: hidden;
-  width: 100%;
-  position: fixed;
-  top: 150rpx;
-  left: 0;
-  background: #fff;
-  transition: all .3s;
-  z-index: 999;
-}
-
-.hot-search__item {
-  display: flex;
-  border-top: 1rpx solid #f9f9f9;
-  font-size: 25rpx;
-  padding: 30rpx;
-  box-sizing: border-box;
-  height: 80rpx;
-  align-items: center;
-}
-
-.hot-search__title {
-  padding-left: 25rpx;
-}
-
-.hot-search__img {
-  width: 45rpx;
-  height: 45rpx;
-}
-
-.hot-search__name {
-  padding-left: 15rpx;
 }
 
 .card-wrap {
@@ -178,9 +54,9 @@
   font-size: 26rpx;
   padding: 0 10rpx;
   line-height: 50rpx;
-  color: #F596AA;
+  color: #FE737A;
   text-align: center;
   border-radius: 10rpx;
-  border: 1rpx solid #F596AA;
+  border: 1rpx solid #FE737A;
   margin-left: 50rpx;
 }
