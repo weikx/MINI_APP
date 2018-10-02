@@ -1,0 +1,14 @@
+<!--components/search/search.wxml-->
+<view class="search-bg {{isShowShadow ? 'search-bg--shadow' : ''}}">
+  <view class="search-wrap {{focus ? 'search-focus' : ''}}">
+    <input bindfocus="inputFocus" bindblur="inputBlur" bindinput="inputTypeing" type="text" placeholder="search flower" placeholder-class="placeholders"/>
+    <text class="iconfont icon-sousuo" style="opacity: {{focus ? 1 : 0}}"/>
+  </view>
+</view>
+<view class="hot-search" style="opacity: {{focus ? 1 : 0}}; height: {{focus ? 80 : 0}}vh">
+  <text class="hot-search__title">hot search</text>
+  <view wx:for="{{searchList}}" wx:key="index" class="hot-search__item">
+    <image class="hot-search__img" src="{{item.img}}"></image>
+    <text class="hot-search__name">{{item.name}}</text>
+  </view>
+</view>
