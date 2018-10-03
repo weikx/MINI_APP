@@ -1,0 +1,77 @@
+/* components/evaluate/evaluate.wxss */
+@import "/static/wxss/icon.wxss";
+
+.wrap {
+
+}
+
+.evaluate {
+  display: flex;
+}
+
+.evaluate-left {
+  flex: 0 0 100rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.evaluate-right {
+  flex: 1;
+}
+
+.evaluate-left .avatar {
+  width: 55rpx;
+  height: 55rpx;
+  border-radius: 50%;
+}
+
+.evaluate-right__top {
+  font-size: 24rpx;
+  padding-right: 30rpx;
+  box-sizing: border-box;
+  line-height: 40rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.evaluate-right__center {
+  font-size: 24rpx;
+}
+
+.evaluate-right__center text {
+  padding-top: 10rpx;
+  display: block;
+  padding-right: 30rpx;
+}
+
+.evaluate-image-wrap {
+  overflow-x: scroll;
+  padding-top: 20prx;
+  display: block;
+}
+
+.evaluate-image-wrap image {
+  width: 180rpx;
+  height: 160rpx;
+  border-radius: 20rpx;
+  margin-right: 30rpx;
+}
+
+.icon-pinglun, .icon-dianzan1 {
+  font-size: 30rpx;
+  color: #cccccc;
+  padding-right: 10rpx;
+
+}
+
+.num {
+  padding-right: 30rpx;
+  font-size: 24rpx;
+}
+.evaluate-right__bottom {
+  text-align: right;
+}
+
+.liked {
+  color: #F596AA;
+}

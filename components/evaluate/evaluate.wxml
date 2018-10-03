@@ -1,0 +1,29 @@
+<!--components/evaluate/evaluate.wxml-->
+<view class="wrap">
+  <view class="evaluate">
+    <view class="evaluate-left">
+      <image src="https://pic2.zhimg.com/80/v2-1e02c1531c33f9460ae82eb88a999cdd_hd.jpg" class="avatar"></image>
+    </view>
+    <view class="evaluate-right">
+      <view class="evaluate-right__top">
+        <text>名字啊啊</text>
+        <text>一周前</text>
+      </view>
+      <view class="evaluate-right__center">
+        <text>好用好用真好用好用好用真好用好用好用真好用好用好用真好用好用好用真好用</text>
+        <view class="evaluate-image-wrap">
+          <image src="https://gratisography.com/thumbnails/gratisography-yellow-cab-new-york-thumbnail.jpg"></image>
+          <image src="https://gratisography.com/thumbnails/gratisography-yellow-cab-new-york-thumbnail.jpg"></image>
+          <image src="https://gratisography.com/thumbnails/gratisography-yellow-cab-new-york-thumbnail.jpg"></image>
+          <image src="https://gratisography.com/thumbnails/gratisography-yellow-cab-new-york-thumbnail.jpg"></image>
+        </view>
+      </view>
+      <view class="evaluate-right__bottom">
+        <text class="iconfont icon-pinglun"></text>
+        <text class="num">2333</text>
+        <text class="iconfont icon-dianzan1 liked"></text>
+        <text class="num liked">2333</text>
+      </view>
+    </view>
+  </view>
+</view>
