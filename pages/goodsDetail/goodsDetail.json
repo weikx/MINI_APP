@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "nav-bar": "/components/navBar/navBar"
+    "nav-bar": "/components/navBar/navBar",
+    "evaluate": "/components/evaluate/evaluate"
   }
 }

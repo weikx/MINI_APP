@@ -10,7 +10,7 @@
         <text class="goods-name">全世爱 - 经典簇拥版嫣红 中型圆形</text>
       </view>
       <view class="goods-info__right">
-        <text class="iconfont icon-shoucang"></text>
+        <text class="iconfont icon-shoucang1"></text>
       </view>
     </view>
     <view class="goods-info__list">
@@ -33,6 +33,21 @@
     </view>
   </view>
   <view class="goods-main">
-
+    <view class="goods-title">
+      <text>图片展示</text>
+      <text class="iconfont icon-gengduo"></text>
+    </view>
+    <view class="goods-display">
+      <image src="http://imgc1-up.ezrpro.com/img/3/060338c1633320.jpg?size=256x256s"></image>
+      <image src="http://imgc1-up.ezrpro.com/img/3/060338c1633320.jpg?size=256x256s"></image>
+      <image src="http://imgc1-up.ezrpro.com/img/3/060338c1633320.jpg?size=256x256s"></image>
+      <image src="http://imgc1-up.ezrpro.com/img/3/060338c1633320.jpg?size=256x256s"></image>
+      <image src="http://imgc1-up.ezrpro.com/img/3/060338c1633320.jpg?size=256x256s"></image>
+      <view class="card-placeholder"></view>
+    </view>
+    <view class="goods-title">
+      <text>商品评价</text>
+    </view>
+    <evaluate></evaluate>
   </view>
 </scroll-view>

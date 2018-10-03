@@ -67,7 +67,7 @@ Page({
   onScroll (event) {
     // 监听滚动 设置 navBar 颜色
     let scrollTop = event.detail.scrollTop
-    if (scrollTop <=180 || scrollTop >= 290) return
+    if (scrollTop <=100 || scrollTop >= 300) return
     this.setData({
       navBarBgColor: scrollTop >= 220
     })

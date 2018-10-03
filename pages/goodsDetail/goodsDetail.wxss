@@ -16,14 +16,14 @@
 
 .goods-info {
   width: 100vw;
-  height: 50vw;
+  height: 40vw;
   background: #ffffff;
   overflow: hidden;
   border-radius: 50rpx 50rpx 0 0;
   position: absolute;
   margin-top: -100rpx;
   z-index: 99;
-  box-shadow: 0 0 100rpx 20rpx rgba(0, 0, 0, .1);
+  box-shadow: 0 -20rpx 100rpx 20rpx rgba(0, 0, 0, .05);
   padding: 30rpx;
   box-sizing: border-box;
 }
@@ -36,7 +36,7 @@
 .goods-info__list--last {
   width: 100%;
   position: absolute;
-  bottom: 50rpx;
+  bottom: 0;
 }
 
 .goods-info__left {
@@ -46,6 +46,7 @@
 .goods-info__right {
   flex: 0 0 20vw;
   text-align: right;
+  color: #FE737A;
 }
 
 .goods-name {
@@ -59,7 +60,7 @@
   color: #cccccc;
 }
 
-.icon-shoucang {
+.icon-shoucang1 {
   padding-right: 50rpx;
   font-size: 50rpx;
   color: #cccccc;
@@ -80,7 +81,34 @@
 }
 
 .goods-main {
-  margin-top: calc(50vw - 100rpx);
+  margin-top: calc(40vw - 100rpx);
   height: 100vh;
-  background: #cccccc;
+}
+
+.goods-title {
+  height: 100rpx;
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30rpx;
+}
+
+.goods-display {
+  display: flex;
+  overflow-x: scroll;
+  padding: 25rpx 0;
+}
+
+.goods-display image {
+  flex: 0 0 200rpx;
+  height: 180rpx;
+  margin-left: 30rpx;
+  box-shadow: 0 0 25rpx 10rpx rgba(0, 0, 0, .05);
+  border-radius: 20rpx;
+}
+
+.card-placeholder {
+  flex:0 0 30rpx;
+  height: auto;
 }
