@@ -52,7 +52,7 @@
 .icon-sousuo {
   flex: 0 0 20rpx;
   text-align: center;
-  font-size: 40rpx;
+  font-size: 30rpx;
   padding-right: 20rpx;
   transition: all .3s;
   color: #FE737A;
