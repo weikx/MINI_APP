@@ -16,10 +16,8 @@
 }
 
 .card-placeholder {
-  display: block;
-  width: 50rpx;
+  flex:0 0 50rpx;
   height: 45vw;
-  color: transparent;
 }
 
 .card {

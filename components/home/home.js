@@ -1,4 +1,6 @@
 // components/home/home.js
+import { HomeModel } from '../../http/models/home'
+const homeModel = new HomeModel()
 Component({
   /**
    * 组件的属性列表
@@ -30,13 +32,14 @@ Component({
     onScroll (event) {
       // 监听滚动 设置搜索框阴影
       let scrollTop = event.detail.scrollTop
-      if (scrollTop <=10 || scrollTop >= 150) return
+      if (scrollTop >= 250) return
       this.setData({
         isShowShadow: scrollTop >= 60
       })
     },
 
     toDetail () {
+      homeModel.getClassify()
       wx.navigateTo({
         url: '/pages/goodsDetail/goodsDetail'
       })
