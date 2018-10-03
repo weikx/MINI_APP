@@ -24,3 +24,8 @@
 .hide {
   display: none;
 }
+
+.back {
+  padding: 10rpx;
+  margin: -10rpx;
+}

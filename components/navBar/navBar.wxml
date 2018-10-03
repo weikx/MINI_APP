@@ -1,6 +1,6 @@
 <!--components/navBar/navBar.wxml-->
 <view class="nav-bar {{showBg ? 'nav-bar--bg' : ''}}">
-  <text class="iconfont icon-PathCopy"></text>
+  <text bindtap="back" class="iconfont icon-PathCopy back"></text>
   <text class="{{showBg ? '' : 'hide'}}">assassination</text>
   <text></text>
 </view>
